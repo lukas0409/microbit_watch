@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    if (hours < 24) {
+    if (hours < 23) {
         hours += 1
     } else {
         hours = 0
